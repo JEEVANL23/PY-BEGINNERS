@@ -1,4 +1,4 @@
-my_string = 'hello world'
+my_string = input()
 print(my_string)
 
 # indexing
@@ -31,3 +31,8 @@ print(h)
 
 i = my_string[::-1]
 print(i)
+
+if my_string == i:
+    print("palindrome")
+else:
+    print('not a palindrome')    
