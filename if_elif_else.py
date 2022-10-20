@@ -1,3 +1,5 @@
+# using numbers
+
 a = int(input())
 b = int(input())
 
@@ -11,4 +13,17 @@ else:
     print("b is G")    
     
 
+
+
+# using strings
+
+location = input()
+
+if location == "temple":
+    print("god is great")
     
+elif location == "college":
+    print("studies are important")
+    
+else:
+    print(0)        
