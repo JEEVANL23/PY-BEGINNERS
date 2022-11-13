@@ -15,8 +15,6 @@ class formula():
     
     def volume(self):
         pass
-    
-    
 class rect(formula):
     
     def area(self):

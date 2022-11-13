@@ -21,7 +21,8 @@ class rect(formula):
         
 class cuboid(rect):
     def volume(self):
-        print(self.l * self.h * self.b)            
+        print(self.l * self.h * self.b)   
+                 
 my_formula = formula(2,3,4)
 my_rect = rect(2,3,4)
 my_cube = cuboid(2,3,4)
